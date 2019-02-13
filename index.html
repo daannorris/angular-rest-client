@@ -3,10 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>daannorris.github.io</title>
-  <base href="{process.env.PUBLIC_URL}">  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="{{ site.url }}"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="{process.env.PUBLIC_URL}styles.css"></head>
 <body>
   <app-root></app-root>
-<script type="text/javascript" src="{process.env.PUBLIC_URL}runtime.js"></script><script type="text/javascript" src="{process.env.PUBLIC_URL}es2015-polyfills.js" nomodule></script><script type="text/javascript" src="{process.env.PUBLIC_URL}polyfills.js"></script><script type="text/javascript" src="{process.env.PUBLIC_URL}main.js"></script></body>
+  <script type="text/javascript" src="{{ site.url }}runtime.js"></script>
+  <script type="text/javascript" src="{{ site.url }}es2015-polyfills.js" nomodule></script>
+  <script type="text/javascript" src="{{ site.url }}polyfills.js"></script>
+  <script type="text/javascript" src="{{ site.url }}main.js"></script></body>
 </html>
